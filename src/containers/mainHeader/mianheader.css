@@ -1,0 +1,31 @@
+.main{
+    width:100%;
+    height: 106px;
+    background: #42bd56;
+    position: relative;
+}
+.search{
+    position: absolute;
+    height:37px;
+    width:346px;
+    border-radius: 37px;
+    border:0;
+    margin: 0 auto;
+    box-sizing: border-box;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 15px;
+
+}
+.route{
+    width:200px;
+    height:30px;
+    position: absolute;
+    top:55px;
+    left:109px;
+}
+.route a{
+    text-decoration: none;
+    color:white;
+    margin-right: 76px;
+}
