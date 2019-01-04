@@ -29,3 +29,22 @@
     color:white;
     margin-right: 76px;
 }
+.triangle-down{
+    position: absolute;
+    width: 27px;
+    height: 0;
+    /*border-left: 10px solid transparent;*/
+    /*border-right: 10px solid transparent;*/
+    /*border-top: 20px solid white;*/
+    border:1px solid white;
+    left:110px;
+    top:82px;
+}
+.triangle-down2{
+    position: absolute;
+    width: 27px;
+    height: 0;
+    border:1px solid white;
+    right:128px;
+    top:82px;
+}
