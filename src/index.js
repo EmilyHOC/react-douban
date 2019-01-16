@@ -1,18 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import {BrowserRouter,Switch,Route} from "react-router-dom";
-import Home from './components/Home';
-import BookMovie from './components/BookMovie'
-import Mine from './components/Mine'
+import {HashRouter,Switch,Route} from "react-router-dom";
+import {Provider} from "react-redux";
+import store from "./redux/store";
+import Main from './containers/main/main';
+import './assets/css/index.less'
+
 
 ReactDOM.render((
-    <BrowserRouter>
-       <Switch>
-           <Route exact path="/" component={Home}></Route>
-           <Route path="/bookmovie" component={BookMovie}/>
-           <Route path="/mine" component={Mine}/>
-       </Switch>
-    </BrowserRouter>
+    <Provider store={store}>
+            <HashRouter>
+                <Switch>
+                    <Route component={Main} ></Route>
+                </Switch>
+            </HashRouter>
+    </Provider>
 ), document.getElementById('root'));
 

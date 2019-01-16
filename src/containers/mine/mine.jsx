@@ -1,13 +1,13 @@
 import React, {Component} from 'react';
 
-class Recommend extends Component {
+class Mine extends Component {
     render() {
         return (
             <div>
-                recommend
+                Mine
             </div>
         );
     }
 }
 
-export default Recommend;
+export default Mine;

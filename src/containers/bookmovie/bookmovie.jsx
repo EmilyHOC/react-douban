@@ -1,13 +1,14 @@
 import React, {Component} from 'react';
+import {Button} from "antd-mobile";
 
-class Recommend extends Component {
+class Bookmovie extends Component {
     render() {
         return (
             <div>
-                recommend
+                bookmovie
             </div>
         );
     }
 }
 
-export default Recommend;
+export default Bookmovie;
