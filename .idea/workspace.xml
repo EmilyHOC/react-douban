@@ -4,7 +4,6 @@
     <list default="true" id="17529def-d263-4747-a999-220ac7a54974" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../React/React/code/react_test/prepare/testref.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../React/React/code/react_test/work/qr.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/BookMovie/index.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../interview/content/第三章 CSS基础/1.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../interview/content/第三章 CSS基础/2.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../interview/content/第三章 CSS基础/3.png" afterDir="false" />
@@ -84,8 +83,6 @@
       <change beforePath="$PROJECT_DIR$/../020_IT教程吧-VUE核心技术视频/code/code/VueTest/js/vue.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../BAT前端面试题/BAT前端面试题/BAT前端面试题/.idea/encodings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../BAT前端面试题/BAT前端面试题/BAT前端面试题/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ftp/.idea/ftp.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../ftp/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../ftp/.idea/modules.xml" beforeDir="false" />
@@ -2395,18 +2392,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/containers/header/header.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/containers/search-content/search-content.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="228">
@@ -2418,11 +2403,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/assets/css/index.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+            <state relative-caret-position="237">
+              <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -2546,8 +2540,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="609" />
-    <option name="y" value="137" />
+    <option name="x" value="536" />
+    <option name="y" value="108" />
     <option name="width" value="1507" />
     <option name="height" value="943" />
   </component>
@@ -2568,51 +2562,6 @@
               <item name="db-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="db-demo" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="db-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="db-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="db-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="db-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="db-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="db-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="db-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="db-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="db-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="db-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
-              <item name="recommend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="db-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="db-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
-              <item name="search-content" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="db-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="db-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
-              <item name="state" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -2637,13 +2586,14 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\10579\Desktop\db-demo" />
+      <recent name="C:\Users\10579\Desktop\db-demo\public\image" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\10579\Desktop\db-demo\src\assets" />
       <recent name="C:\Users\10579\Desktop\db-demo\src\common\image" />
       <recent name="C:\Users\10579\Desktop\db-demo\src\common" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\10579\Desktop\db-demo\public\image" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -2677,15 +2627,15 @@
       <workItem from="1547509131462" duration="385000" />
       <workItem from="1547558973538" duration="21387000" />
       <workItem from="1547642068548" duration="3507000" />
-      <workItem from="1547646764907" duration="517000" />
+      <workItem from="1547646764907" duration="849000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41785000" />
+    <option name="totallyTimeSpent" value="42117000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="372" y="138" width="1507" height="943" extended-state="0" />
+    <frame x="536" y="108" width="1507" height="943" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21890202" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -2922,8 +2872,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/css/index.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        <state relative-caret-position="237">
+          <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
         </state>
       </provider>
     </entry>
