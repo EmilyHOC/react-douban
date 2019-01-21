@@ -26,6 +26,9 @@ class NavFooter extends Component {
             </TabBar>
         );
     }
+    componentDidMount() {
+                console.log(this.props.location.pathname)
+    }
 }
 
 export default withRouter(NavFooter);

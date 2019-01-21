@@ -1,14 +1,10 @@
 import React, {Component} from 'react';
-import BookMovie from "../../components/BookMovie";
 import Header from "../header/header";
 import Mine from "../mine/mine";
-import Bookmovie from "../bookmovie/bookmovie";
+import BookMovie from "../bookmovie/bookmovie";
 import {Route,Switch} from "react-router-dom";
 import NotFound from '../../components/NotFound/not-found';
 import NavFooter from '../../components/nav-footer/nav-footer';
-import {NavBar} from "antd-mobile";
-import State from "../state/state";
-import Recommend from "../recommend/recommend";
 
 class Main extends Component {
     navList=[
@@ -39,8 +35,8 @@ class Main extends Component {
             <div>
 
                 <Switch>
-                    <Route component={Header} path='/' ></Route>
-                    <Route component={Bookmovie} path='/bookmovie'></Route>
+                    <Route component={Header} path='/header'></Route>
+                    <Route component={BookMovie} path='/bookmovie'></Route>
                     <Route component={Mine} path='/mine'></Route>
                     <Route component={NotFound}/>
                 </Switch>

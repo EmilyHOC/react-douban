@@ -1,10 +1,17 @@
 import {combineReducers} from "redux";
-function xx(state=0,action){
-    return state;
+import {RECEIVE_SEARCH} from "./actiontypes";
+
+const initSearch={
+    movie:'大黄蜂'
 }
-function yy(state=0,action) {
-    return state
+function Search(state=initSearch,action) {
+    switch (action.type) {
+        case RECEIVE_SEARCH:
+            return {...action.data}
+        default:
+            return state
+    }
 }
 export default combineReducers({
-    xx,yy
+    Search
 })

@@ -1,30 +1,17 @@
-import React, {Component} from 'react';
-import {TabBar} from "antd-mobile";
-import PropTypes from 'prop-types'
-import {withRouter} from "react-router-dom";
-const Item=TabBar.Item;
+import {reqSearch} from "../api";
+import {RECEIVE_SEARCH} from "./actiontypes";
 
-class NavFooter extends Component {
-    static propTypes={
-        navList:PropTypes.array.isRequired
-    }
-    render() {
-        let {navList} =this.props;
-        const path=this.props.location.pathname;
-        return (
-            <TabBar>
-                {
-                    navList.map((nav)=>(
-                        <Item key={nav.path} title={nav.text} icon={{uri:require(`./images/${nav.icon}.png`)}}
-                              selected={path===nav.path}
-                              selectedIcon={{uri:require(`./images/${nav.icon}-selected.png`)}}
-                              onPress={()=>
-                                  this.props.history.replace(nav.path)
-                              }/>
-                    ))
-                }
-            </TabBar>
-        );
+//同步接收歌曲
+
+const receiveSearch =(name)=>({
+    type:RECEIVE_SEARCH
+});
+
+export  const receiveData =(name)=>{
+    return async dispatch=>{
+        const response =await reqSearch(name);
+        const result=response;
+            //接收成功
+            dispatch(receiveSearch(result));
     }
 }
-export default withRouter(NavFooter);

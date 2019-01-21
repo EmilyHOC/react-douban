@@ -1,13 +1,13 @@
 import React, {Component} from 'react';
 
-class BookMovie extends Component {
+class Read extends Component {
     render() {
         return (
             <div>
-              bookmovie
+                read
             </div>
         );
     }
 }
 
-export default BookMovie;
+export default Read;
