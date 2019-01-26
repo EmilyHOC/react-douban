@@ -1,17 +1,34 @@
-import {reqSearch} from "../api";
-import {RECEIVE_SEARCH} from "./actiontypes";
+import {searchHotMovie,searchComingMovie} from "../api";
+import {RECEIVE_HOTMOVIE,RECEIVE_COMINGMOVIE} from "./actiontypes";
 
-//同步接收歌曲
 
-const receiveSearch =(name)=>({
-    type:RECEIVE_SEARCH
+
+//同步接收影院热映
+const receiveHotMovie =(movie)=>({
+    type:RECEIVE_HOTMOVIE,
+    data:movie
 });
+const receiveComingMovie =(movie)=>({
+    type: RECEIVE_COMINGMOVIE,
+    data: movie
+})
 
-export  const receiveData =(name)=>{
+
+//发送热门电影的异步请求
+export const getHotMovie =()=>{
     return async dispatch=>{
-        const response =await reqSearch(name);
-        const result=response;
-            //接收成功
-            dispatch(receiveSearch(result));
+        const response=await searchHotMovie();
+        const result=response.data;
+        dispatch(receiveHotMovie(result.subjects))
+    }
+}
+//发送即将上映的热门请求
+export const getComingMovie =()=>{
+    return async dispatch =>{
+        const response = await searchComingMovie();
+        console.log(response);
+        const result=response.data;
+        console.log(result)
+        dispatch(receiveComingMovie(result.subjects))
     }
 }

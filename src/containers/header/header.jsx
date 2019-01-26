@@ -8,7 +8,6 @@ import SearchContent from "../search-content/search-content";
 class Header extends Component {
 
     render() {
-        let path=this.props.location.pathname;
 
             return (
                 <div>

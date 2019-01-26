@@ -1,3 +1,7 @@
-import {search }from './ajax';
+import {searchHotmovie,searchComingmovie }from './ajax';
 
-export const reqSearch =(name) =>search(name);
+
+//热映电影
+export const searchHotMovie=()=>searchHotmovie();
+//即将上映
+export const searchComingMovie = ()=>searchComingmovie();

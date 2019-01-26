@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import logo from "../../assets/image/logo.png";
 import thumb from "../../assets/image/thumb.png";
-import Line from "../../components/line/line"
 import commend from '../../assets/image/commend.png'
 import send from '../../assets/image/sendto.png'
 

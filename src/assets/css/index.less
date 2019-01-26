@@ -306,12 +306,19 @@ a{
         border: 2px solid #FFFFFF;
       }
     }
-    .username{
-      color: #ffffff;
+    .right{
+      .info{
+        display: inline-block;
+        width:100%;
+        .username{
+
+        }
+        .personpage{
+
+        }
+      }
     }
-    .personpage{
-      color: #ffffff;
-    }
+
   }
 
 }
@@ -322,4 +329,23 @@ a{
 .am-list-content{
   text-align: center;
   color: #9b9b9b;
+}
+.movie{
+  display: grid;
+  grid-column: 3;
+  .pic{
+    a{
+      display: inline-block;
+      width: 30%;
+      margin-right: 5px;
+      p:nth-child(3){
+        color: #818181;
+      }
+    }
+     .moviepic{
+      width:100%;
+       height: 150px;
+      margin-right: 5px;
+    }
+  }
 }

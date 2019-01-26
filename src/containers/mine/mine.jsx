@@ -13,12 +13,18 @@ class Mine extends Component {
                 <div className="personal">
                     <div className="pheader">
                         <div className="perpic">
-                            <img src={person}></img>
+                            <img src={person} alt='person'></img>
                         </div>
-                        <div className="username">米方</div><br/>
-                        <div className="personpage">个人主页</div>
-                        <div className="focus">关注 7</div>
-                        <div className="befocus"> 被关注 0</div>
+                        <div className="right">
+                            <div className="info">
+                                <div className="username">米方</div><br/>
+                                <div className="personpage">个人主页</div>
+                            </div>
+                            <div className="focusornot">
+                                <div className="focus">关注 7</div>
+                                <div className="befocus"> 被关注 0</div>
+                            </div>
+                        </div>
                     </div>
 
                 </div>
