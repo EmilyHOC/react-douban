@@ -3,4 +3,6 @@
 
 ![](https://user-gold-cdn.xitu.io/2019/1/3/16813c41f88e7df5?w=401&h=696&f=png&s=8672)
 ![](https://user-gold-cdn.xitu.io/2019/1/16/168570694b108c5f?w=374&h=672&f=png&s=15049)
-* 拿到数据居然不知道怎么办
+
+* 终于请求到数据了
+! [](./2.gif)
