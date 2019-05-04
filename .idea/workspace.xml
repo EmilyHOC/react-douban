@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="17529def-d263-4747-a999-220ac7a54974" name="Default Changelist" comment="" />
+    <list default="true" id="17529def-d263-4747-a999-220ac7a54974" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2.gif" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -13,11 +16,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2.gif">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
@@ -112,8 +110,8 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="352" />
-    <option name="y" value="234" />
+    <option name="x" value="192" />
+    <option name="y" value="89" />
     <option name="width" value="1400" />
     <option name="height" value="800" />
   </component>
@@ -225,15 +223,15 @@
       <workItem from="1556236847573" duration="760000" />
       <workItem from="1556330655401" duration="2207000" />
       <workItem from="1556509406712" duration="78000" />
-      <workItem from="1556976832420" duration="277000" />
+      <workItem from="1556976832420" duration="635000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="157245000" />
+    <option name="totallyTimeSpent" value="157603000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="352" y="234" width="1400" height="800" extended-state="0" />
+    <frame x="308" y="192" width="1400" height="800" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2496329" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -456,7 +454,7 @@
           <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
-            <element signature="e#294#986#0" expanded="false" />
+            <element signature="e#294#986#0" />
           </folding>
         </state>
       </provider>
