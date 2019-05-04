@@ -1,8 +1,4 @@
-### 想模仿一个豆瓣的读书和电影的webapp，打算用react做，只截取读书，我的，首页功能
- > 第一天：
+![](https://user-gold-cdn.xitu.io/2019/5/4/16a831e741cedb99?w=414&h=674&f=png&s=90101)
+![](https://user-gold-cdn.xitu.io/2019/5/4/16a831e7c881b3ad?w=371&h=669&f=png&s=254545)
 
-![](https://user-gold-cdn.xitu.io/2019/1/3/16813c41f88e7df5?w=401&h=696&f=png&s=8672)
-![](https://user-gold-cdn.xitu.io/2019/1/16/168570694b108c5f?w=374&h=672&f=png&s=15049)
-
-* 终于请求到数据了
-![]('./2.gif')
+![](https://user-gold-cdn.xitu.io/2019/5/4/16a831e9213de155?w=387&h=663&f=png&s=23601)
