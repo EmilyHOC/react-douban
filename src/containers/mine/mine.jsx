@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import Line from '../../components/line/line';
-import person from '../../assets/image/logo.png'
 import {List} from "antd-mobile";
 import remind from '../../assets/image/remind.png'
 const Item = List.Item;
@@ -9,24 +8,15 @@ const Item = List.Item;
 class Mine extends Component {
     render() {
         return (
-            <div>
-                <div className="personal">
-                    <div className="pheader">
-                        <div className="perpic">
-                            <img src={person} alt='person'></img>
-                        </div>
-                        <div className="right">
-                            <div className="info">
-                                <div className="username">米方</div><br/>
-                                <div className="personpage">个人主页</div>
-                            </div>
-                            <div className="focusornot">
-                                <div className="focus">关注 7</div>
-                                <div className="befocus"> 被关注 0</div>
-                            </div>
-                        </div>
-                    </div>
-
+            <div className='mine-wrapper'>
+                <div className="title">
+                  <div className="avatar">
+                    <img src={require('../../assets/image/logo.png')}></img>
+                  </div>
+                  <div className="content">
+                    <div className="name">米方</div>
+                    <div className="focus">关注10 被关注3</div>
+                  </div>
                 </div>
                 <Line/>
                 <List>
@@ -38,7 +28,18 @@ class Mine extends Component {
                     >
                        提醒
                     </Item>
-                    <Item>暂无新提醒</Item>
+                    <Item  arrow="horizontal"
+                           thumb={remind}
+                           multipleLine
+                           onClick={() => {}}>暂无新提醒</Item>
+                    <Item  arrow="horizontal"
+                           thumb={remind}
+                           multipleLine
+                           onClick={() => {}}>我的日记</Item>
+                    <Item  arrow="horizontal"
+                           thumb={remind}
+                           multipleLine
+                           onClick={() => {}}>我的关注</Item>
                 </List>
                 <Line/>
             </div>

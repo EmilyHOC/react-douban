@@ -36,9 +36,11 @@ class MovieList extends Component {
             <div>
                <Navlogo/>
                 <div className="box">
-                    <div className='picmovie'></div>
+                    <div className='picmovie'>
+                      <img src={require('../../assets/image/fuchou.jpg')} ></img>
                     <p>今日可播放影片已更新<br/></p>
                         <p className="all">全部</p>
+                    </div>
                 </div>
                 <div className="listcontent">
                     <NavLink className='hot' to='/bookmovie/movielist/hot' activeClassName='click' onClick={this.playhotmovie} >影院热映</NavLink>

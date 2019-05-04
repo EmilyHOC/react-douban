@@ -17,9 +17,8 @@ class Header extends Component {
                             <NavLink to='/header/state' className="state" activeClassName="stateactive">动态</NavLink>
                             <NavLink to='/header/recommend' className="router" activeClassName="routeractive">推荐</NavLink>
                         </div>
-                        <Route component={State} path='/header/state'></Route>
+                        <Route component={State} path='/header/state'/>
                         <Route component={Recommend} path='/header/recommend'/>
-
                     </div>
                 </div>
             );

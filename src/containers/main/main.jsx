@@ -9,7 +9,7 @@ import NavFooter from '../../components/nav-footer/nav-footer';
 class Main extends Component {
     navList=[
         {
-            path:'/header',
+            path:'/',
             component:Header,
             title:'首页',
             icon:'header',
@@ -35,10 +35,9 @@ class Main extends Component {
             <div>
 
                 <Switch>
-                    <Route component={Header} path='/header'></Route>
                     <Route component={BookMovie} path='/bookmovie'></Route>
                     <Route component={Mine} path='/mine'></Route>
-                    <Route component={NotFound}/>
+                  <Route component={Header} path='/' ></Route>
                 </Switch>
                 {
                     currentNav?<NavFooter navList={this.navList}/>:null
